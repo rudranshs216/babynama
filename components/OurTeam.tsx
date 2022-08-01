@@ -15,7 +15,7 @@ Ex resident safdarjung hospital
 Consultant paediatrician and newborn specialist
 Vandna child clinics, Ghitorni , New Delhi" Img="/images/doc/vandna.webp" />
                 <DoctorProfile Name="Dr. Rajat Goswami" Degree="MD Paediatrics (Kalawati Hospital)" Para="10 years experience Consultant paediatrician and newborn specialist Blossoms kids clinics, Rohini, New Delhi" Img="/images/doc/Rajat.webp" />
-                <DoctorProfile Name="Dr. Priyanka Tiwari" Degree="MBBS, DNB Paediatrics (Safdarjung Hospital)" Para="10 years experience Consultant paediatrician and newborn specialistJaypee Hospital, Noida" Img="/images/doc/Priyanka.webp" />
+                <DoctorProfile Name="Dr. Priyanka Tiwari" Degree="MBBS, DNB Paediatrics (Safdarjung Hospital)" Para="10 years experience Consultant paediatrician and newborn specialistJaypee Hospital, Noida" Img="/images/doc/priyanka.webp" />
                 <DoctorProfile Name="Dr. Garima yadav" Degree="MBBS, MD Paediatrics (MAMC)" Para="8 years of experience Consultant paediatrician and newborn specialist Garima Hospital, Gurugram" Img="/images/doc/Garima.webp" />
             </div>
 
