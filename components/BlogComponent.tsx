@@ -1,11 +1,12 @@
+import Image, { StaticImageData } from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-const BlogComponent = ({Heading, Img}: {Heading:string, Img: string}) => {
+const BlogComponent = ({Heading, Img}: {Heading:string, Img: string | StaticImageData}) => {
   return (
     <div className="w-full max-w-[400px] sm:w-[400px] p-4 m-4 rounded-lg border shadow-md bg-gray-800 hover:bg-gray-900 border-gray-700">
         <div className='w-full'>
-            <img className='w-full' src={Img} alt="" />
+            <Image src={Img} alt="" />
         </div>
         <div className='pt-4 flex flex-col gap-2 justify-between min-h-[150px]'>
             <div>

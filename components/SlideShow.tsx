@@ -2,6 +2,10 @@ import React from "react";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import TestimonialConponent from "./TestimonialConponent";
+// import testimonialPic1 from "../public/images/testimonials/Testimonials pictures-20220712T145415Z-001/Testimonials pictures/Asha.webp";
+// import testimonialPic2 from "../public/images/testimonials/Sawti.webp";
+// import testimonialPic3 from "../public/images/testimonials/Testimonials pictures-20220712T145415Z-001/Testimonials pictures/Pankaj.webp";
+
 
 const Slideshow = () => {
 	const Testimonials = [
@@ -9,19 +13,22 @@ const Slideshow = () => {
 			testimonial: "My baby was crying continuously for 2 hours. I scheduled a consultation on the babynama Whatsapp Group and the doctor provided me with the right guidance. Within 15 minutes I was able to calm my baby.",
 			name: "Asha",
 			detail: "Parent of two Young Kids",
-            imgSrc: "/images/testimonials/Testimonials pictures-20220712T145415Z-001/Testimonials pictures/Asha.webp"
+			imgSrc: "/images/testimonials/Testimonials pictures-20220712T145415Z-001/Testimonials pictures/Asha.webp"
+			// imgSrc: testimonialPic1
 		},
 		{
 			testimonial: "I use babynama Whatsapp group daily to be a super parent!",
 			name: "Swati",
 			detail: "Parent of a 1.5 year old",
-            imgSrc: "/images/testimonials/Sawti.webp" 
+			imgSrc: "/images/testimonials/Sawti.webp"
+			// imgSrc: testimonialPic2
 		},
 		{
 			testimonial: "My friends told me my son should be walking by now. I got worried but I was not sure if I should take him to the doctor for this. I used the babynama Whatsapp group and was relieved that my son is doing fine for his age.",
 			name: "Pankaj",
 			detail: "Parent of a 1 year old",
-            imgSrc: "/images/testimonials/Testimonials pictures-20220712T145415Z-001/Testimonials pictures/Pankaj.webp"
+			imgSrc: "/images/testimonials/Testimonials pictures-20220712T145415Z-001/Testimonials pictures/Pankaj.webp"
+			// imgSrc: testimonialPic3
 		}
 
 	];
@@ -61,7 +68,7 @@ const Slideshow = () => {
 		indicators: true,
 		arrows: true,
 		pauseOnHover: true
-	  };
+	};
 	return (
 		<div className="w-full rounded-lg sm:w-[600px] bg-white pb-4 slide-container">
 			<Slide {...properties} >

@@ -1,15 +1,28 @@
+import Image from 'next/image'
 import React from 'react'
+import pic1 from "../public/images/about/pic-1.webp"
+import pic2 from "../public/images/about/pic-2.webp"
+import pic3 from "../public/images/about/pic-3.webp"
 
 const About = () => {
     return (
         <div id='about' className='flex flex-col xl:flex-row justify-center items-center gap-8 px-6 py-24'>
             <div className='flex flex-col gap-4 xl:w-[470px] mr-12'>
                 <div className='flex flex-wrap items-end gap-4'>
-                    <img className='w-[200px] rounded-tr-3xl rounded-b-3xl ' src="/images/about/pic-1.webp" alt="" />
-                    <img className='w-[250px] rounded-b-3xl rounded-tl-3xl' src="/images/about/pic-2.webp" alt="" />
+                    {/* <img className='w-[200px] rounded-tr-3xl rounded-b-3xl ' src="/images/about/pic-1.webp" alt="" /> */}
+                    <div className='w-[200px]'>
+                        <Image className='rounded-tr-3xl rounded-b-3xl' src={pic1} loading="lazy" />
+                    </div>
+                    <div className='w-[250px]'>
+                        <Image className='rounded-b-3xl rounded-tl-3xl' src={pic2} loading="lazy" />
+                    </div>
+                    {/* <img className='rounded-b-3xl rounded-tl-3xl' src="/images/about/pic-2.webp" alt="" /> */}
                 </div>
                 <div className='flex flex-wrap items-start gap-4'>
-                    <img className='w-[250px] rounded-br-3xl rounded-t-3xl ' src="/images/about/pic-3.webp" alt="" />
+                    {/* <img className='w-[250px] rounded-br-3xl rounded-t-3xl ' src="/images/about/pic-3.webp" alt="" /> */}
+                    <div className='w-[250px]'>
+                        <Image className='rounded-br-3xl rounded-t-3xl' src={pic3} loading="lazy" />
+                    </div>
                     <div className='bg-[#a0d9ef] py-16 w-[200px] sm:h-[230px] flex flex-col items-start pl-12 justify-center rounded-bl-3xl rounded-t-3xl'>
                         <p className='text-5xl font-semibold'>30+</p>
                         <p className='text-xl font-medium'>Pediatricians</p>

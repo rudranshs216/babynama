@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import img from "../public/images/image.webp";
 
 const HeroComponent = () => {
     return (
@@ -8,12 +9,16 @@ const HeroComponent = () => {
                 <h1 className='text-3xl lg:text-5xl font-semibold mb-12'>Get Immediate Access to Pediatricians 24x7 for FREE from our Babynama community</h1>
                 <div className='flex flex-wrap gap-6'>
 
-                <div className='py-2 px-6 rounded-lg bg-[#f17732] w-[fit-content] text-white text-lg font-medium cursor-pointer shadow-sm'>Join Our Doctors Community</div>
-                <div className='py-2 px-6 rounded-lg bg-[#f17732] w-[fit-content] text-white text-lg font-medium cursor-pointer shadow-sm'>Chat with a Pediarician Now</div>
+                    <div className='py-2 px-6 rounded-lg bg-[#f17732] w-[fit-content] text-white text-lg font-medium cursor-pointer shadow-sm'>Join Our Doctors Community</div>
+                    <div className='py-2 px-6 rounded-lg bg-[#f17732] w-[fit-content] text-white text-lg font-medium cursor-pointer shadow-sm'>Chat with a Pediarician Now</div>
                 </div>
             </div>
             <div className='max-w-[900px] lg:w-[100%]'>
-                <img src="/images/image.webp"/>
+                <Image
+                    src={img}
+                    loading="eager"
+                />
+                {/* <img src="/images/image.webp"/> */}
             </div>
 
         </div>

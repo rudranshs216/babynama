@@ -1,4 +1,6 @@
+import Image from 'next/image'
 import React from 'react'
+import appointmentImg from "../public/images/appointment/appointment.jpeg"
 
 const Appointment = () => {
   return (
@@ -17,7 +19,8 @@ const Appointment = () => {
             <button className='bg-gray-800 px-8 py-4 w-[fit-content] rounded-lg text-white'>Appointment Now</button>
         </div>
         <div>
-            <img className='rounded-3xl' src="/images/appointment/appointment.jpeg" alt="" />
+            <Image className='rounded-3xl' src={appointmentImg} loading="lazy" />
+            {/* <img className='rounded-3xl' src="/images/appointment/appointment.jpeg" alt="" /> */}
         </div>
     </div>
   )

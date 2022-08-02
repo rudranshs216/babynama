@@ -1,5 +1,10 @@
 import React from 'react'
 import DoctorProfile from './DoctorProfile'
+import sumitra from "../public/images/doc/sumitra.webp"
+import vandna from "../public/images/doc/vandna.webp"
+import rajat from "../public/images/doc/Rajat.webp"
+import priyanka from "../public/images/doc/priyanka.webp"
+import garima from "../public/images/doc/Garima.webp"
 
 const OurTeam = () => {
     return (
@@ -8,15 +13,15 @@ const OurTeam = () => {
             <div className='sm:p-4 flex flex-wrap justify-center'>
 
                 <DoctorProfile Name="Dr. Sumitra Meena" Degree="MBBS, MD Paediatrics (Kalawati Hospital)" Para="8 years experience
-Ex resident safdarjung hospital" Img="/images/doc/sumitra.webp" />
+Ex resident safdarjung hospital" Img={sumitra} />
                 <DoctorProfile Name="Dr. Vandna Kasana
 " Degree="MBBS, MD Paediatrics(Kalawati Hospital)" Para="8 years experience
 Ex resident safdarjung hospital
 Consultant paediatrician and newborn specialist
-Vandna child clinics, Ghitorni , New Delhi" Img="/images/doc/vandna.webp" />
-                <DoctorProfile Name="Dr. Rajat Goswami" Degree="MD Paediatrics (Kalawati Hospital)" Para="10 years experience Consultant paediatrician and newborn specialist Blossoms kids clinics, Rohini, New Delhi" Img="/images/doc/Rajat.webp" />
-                <DoctorProfile Name="Dr. Priyanka Tiwari" Degree="MBBS, DNB Paediatrics (Safdarjung Hospital)" Para="10 years experience Consultant paediatrician and newborn specialistJaypee Hospital, Noida" Img="/images/doc/priyanka.webp" />
-                <DoctorProfile Name="Dr. Garima yadav" Degree="MBBS, MD Paediatrics (MAMC)" Para="8 years of experience Consultant paediatrician and newborn specialist Garima Hospital, Gurugram" Img="/images/doc/Garima.webp" />
+Vandna child clinics, Ghitorni , New Delhi" Img={vandna} />
+                <DoctorProfile Name="Dr. Rajat Goswami" Degree="MD Paediatrics (Kalawati Hospital)" Para="10 years experience Consultant paediatrician and newborn specialist Blossoms kids clinics, Rohini, New Delhi" Img={rajat} />
+                <DoctorProfile Name="Dr. Priyanka Tiwari" Degree="MBBS, DNB Paediatrics (Safdarjung Hospital)" Para="10 years experience Consultant paediatrician and newborn specialistJaypee Hospital, Noida" Img={priyanka} />
+                <DoctorProfile Name="Dr. Garima yadav" Degree="MBBS, MD Paediatrics (MAMC)" Para="8 years of experience Consultant paediatrician and newborn specialist Garima Hospital, Gurugram" Img={garima} />
             </div>
 
         </div>
