@@ -14,7 +14,7 @@ const TestimonialConponent = ({ Paragraph, Details, Name, imgSrc }: { Paragraph:
                 </div>
                 <div className='relative sm:w-24 w-12 h-12 sm:h-24 rounded-full overflow-hidden flex items-center justify-center'>
                     {/* <img className='sm:w-24 w-12 h-12 sm:h-24 object-cover rounded-full' src={imgSrc} alt={Name} /> */}
-                    <Image className="rounded-full" objectFit='cover'  src={imgSrc} />
+                    <Image className="rounded-full" objectFit='cover'  src={imgSrc} loading="lazy" />
                 </div>
             </div>
         </div>
