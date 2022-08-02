@@ -5,3 +5,8 @@
 html{
     scroll-behavior: smooth;
 }
+.image{
+    object-fit: cover;
+    width: 100%!important;
+}
+
